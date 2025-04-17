@@ -12,7 +12,7 @@ bidding-app/
 │   ├── notification-service/  
 │   └── payment-service/  
 └── frontend/  
-└── bidding-ui/      ← your Angular project
+    └── bidding-ui/      ← your Angular project
 
 #  Next Steps
 
@@ -104,7 +104,14 @@ A full-stack microservices-based application using **Spring Boot**, **Angular**,
 - [ ] Use **Elasticsearch** with **Filebeat** or **Logstash** to collect and analyze logs
 
 ---
+---
+---
 
 ## 🧩 Optional Enhancements
 - [ ] Distributed Tracing (e.g., Zipkin or Jaeger)
 - [ ] Security Hardening (OAuth2, Keycloak roles & scopes)
+
+## 🔐 Later: Keycloak Integration
+- [ ] Configure Keycloak realm, client, and users
+- [ ] Secure Angular routes via Keycloak JS Adapter or keycloak-angular
+- [ ] Secure backend services using Spring Security with Keycloak
