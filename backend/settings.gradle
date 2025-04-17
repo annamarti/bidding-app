@@ -1,3 +1,4 @@
 rootProject.name = 'bidding-backend'
 
+include 'discovery-service'
 
