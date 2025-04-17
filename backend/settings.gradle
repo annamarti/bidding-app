@@ -1,4 +1,5 @@
 rootProject.name = 'bidding-backend'
 
 include 'discovery-service'
+include 'api-gateway'
 
